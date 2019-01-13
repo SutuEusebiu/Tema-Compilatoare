@@ -1,0 +1,4 @@
+lex tema2.l
+yacc -d tema2.y
+g++ lex.yy.c y.tab.c -o comp -lfl
+./comp < in
